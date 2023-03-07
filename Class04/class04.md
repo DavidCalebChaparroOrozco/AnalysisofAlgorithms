@@ -5,7 +5,7 @@ $$\hat{y} = b, X, e_{1} = y_{i} - \hat{y_{i}}$$
 
 $$y_{i} = b_{0} + b_{1}X + \varepsilon_{i}$$
 
-$$T = \frac{b_{1} - b_{10}}{\frac{S}{\sqrt{S_{xx}}}}$$
+$$T = \frac{b_{1} - b_{0}}{\frac{S}{\sqrt{S_{xx}}}}$$
 
 $$R^{2} = 1 - \frac{SCE}{STC}$$
 
