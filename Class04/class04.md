@@ -24,6 +24,9 @@ $\sum (x_{i} - \bar{x})^{2}$
 Modelo estimado $\hat{y} = 0.4643 + 2.0357$ $X$
 por cadaunidad que aumenta $X$, la variable $Y$ aumenta 2.0357
 
+## $S^{2}$ (La Varianza del Modelo)
+$$S^{2} = \frac{SCE}{n-2} = \frac{\sum(Y_{i} - \hat{Y}_{i})^{2}}{n-2}$$
+
 # ANOVA:
 Analisis de varianza, sirve para calcular tablas de análisis de varianza (o desviación) para uno o
 más objetos modelo ajustados.
