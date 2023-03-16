@@ -1,4 +1,6 @@
-data
+library(readxl)
+data <- read_excel("Class04/data.xlsx", col_types = c("numeric", "numeric"))
+View(data)
 data_x <-data$X
 data_y <- data$Y
 plot(data_x, data_y)
