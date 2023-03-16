@@ -54,17 +54,18 @@ if (i in 2:(num-1)){
 }
 
 if (es_primo){
-  print(paste(num, "es un número primo"))
+  print(paste(num, "es un nï¿½mero primo"))
 } else {
-  print(paste(num, "no es un número primo"))
+  print(paste(num, "no es un nï¿½mero primo"))
 }
 
 # Importar dataset en Excel
 library(readxl)
-datasetexcel <- read_excel("C:/Users/salas/Desktop/datasetexcel.xlsx")
+datasetexcel <- read_excel("Class02/datasetexcel.xlsx")
+# dataexcel <- read_excel("Class02/datasetexcel.xlsx")
 View(datasetexcel)
 
-dir.input <- 'C:/Users/salas/Desktop/datasetexcel.xlsx'
+dir.input <- "Class02/datasetexcel.xlsx"
 
 # Select the column C
 dataset_excel_C <- datasetexcel[,"C"]
