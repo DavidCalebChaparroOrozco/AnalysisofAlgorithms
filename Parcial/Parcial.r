@@ -112,7 +112,7 @@ print(paste("F estadístico:", f_estadistico))
 print(paste("F crítico:", f_critico))
 print(paste("Valor p:", p_valor))
 if (p_valor < alpha) {
-  print("Rechazamos la hipótesis nula. Hay evidencia suficiente para concluir que la pendiente es diferente de cero.\n")
+  print("Rechazamos la hipótesis nula. Hay evidencia suficiente para concluir que la pendiente es diferente de cero.")
 } else {
-  print("No podemos rechazar la hipótesis nula. No hay evidencia suficiente para concluir que la pendiente es diferente de cero.\n")
+  print("No podemos rechazar la hipótesis nula. No hay evidencia suficiente para concluir que la pendiente es diferente de cero.")
 }
